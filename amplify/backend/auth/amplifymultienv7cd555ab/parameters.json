@@ -1,9 +1,9 @@
 {
-    "identityPoolName": "amplifymultienv99ff2947_identitypool_99ff2947",
+    "identityPoolName": "amplifymultienv7cd555ab_identitypool_7cd555ab",
     "allowUnauthenticatedIdentities": false,
-    "openIdLambdaRoleName": "amplif99ff2947_openid_lambda_role",
-    "resourceNameTruncated": "amplif99ff2947",
-    "userPoolName": "amplifymultienv99ff2947_userpool_99ff2947",
+    "openIdLambdaRoleName": "amplif7cd555ab_openid_lambda_role",
+    "resourceNameTruncated": "amplif7cd555ab",
+    "userPoolName": "amplifymultienv7cd555ab_userpool_7cd555ab",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -21,7 +21,7 @@
     "requiredAttributes": [
         "email"
     ],
-    "userpoolClientName": "amplif99ff2947_app_client",
+    "userpoolClientName": "amplif7cd555ab_app_client",
     "userpoolClientGenerateSecret": true,
     "userpoolClientRefreshTokenValidity": 30,
     "userpoolClientWriteAttributes": [
@@ -30,10 +30,10 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "mfaLambdaRole": "amplif99ff2947_totp_lambda_role",
-    "userpoolClientLambdaRole": "amplif99ff2947_userpoolclient_lambda_role",
+    "mfaLambdaRole": "amplif7cd555ab_totp_lambda_role",
+    "userpoolClientLambdaRole": "amplif7cd555ab_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "resourceName": "amplifymultienv99ff2947",
+    "resourceName": "amplifymultienv7cd555ab",
     "authSelections": "identityPoolAndUserPool",
     "authRoleName": {
         "Ref": "AuthRoleName"
@@ -53,20 +53,7 @@
             "Arn"
         ]
     },
-    "useDefault": "defaultSocial",
-    "hostedUI": true,
+    "useDefault": "default",
     "additionalQuestions": [],
-    "hostedUIDomainName": "master-amplify-multi-env",
-    "newCallbackURLs": [
-        "http://localhost:3000/"
-    ],
-    "newLogoutURLs": [
-        "http://localhost:3000/"
-    ],
-    "authProvidersUserPool": [
-        "Facebook"
-    ],
-    "hostedUIProviderMeta": "[{\"ProviderName\":\"Facebook\",\"authorize_scopes\":\"email,public_profile\",\"AttributeMapping\":{\"email\":\"email\",\"username\":\"id\"}}]",
-    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:3000/\"],\"LogoutURLs\":[\"http://localhost:3000/\"]}",
     "dependsOn": []
 }

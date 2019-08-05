@@ -12,11 +12,7 @@
         },
         "categories": {
             "auth": {
-                "amplifymultienv99ff2947": {
-                    "facebookAppIdUserPool": "133718410632322",
-                    "facebookAppSecretUserPool": "f7679db02ec14e8abf0202f090e24a5c",
-                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"133718410632322\",\"client_secret\":\"f7679db02ec14e8abf0202f090e24a5c\"}]"
-                }
+                "amplifymultienv7cd555ab": {}
             }
         }
     }
