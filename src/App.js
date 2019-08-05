@@ -22,7 +22,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React - Dev Branch
+          Learn React - Dev Branch of Amplify
         </a>
       </header>
     </div>
