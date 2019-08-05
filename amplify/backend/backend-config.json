@@ -1,9 +1,3 @@
 {
-	"auth": {
-		"amplifymultienv7cd555ab": {
-			"service": "Cognito",
-			"providerPlugin": "awscloudformation",
-			"dependsOn": []
-		}
-	}
+	"auth": {}
 }
