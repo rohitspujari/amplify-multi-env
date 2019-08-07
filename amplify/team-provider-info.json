@@ -9,6 +9,11 @@
             "UnauthRoleName": "amplify-multi-env-master-20190805072432-unauthRole",
             "StackName": "amplify-multi-env-master-20190805072432",
             "StackId": "arn:aws:cloudformation:us-east-1:465541050084:stack/amplify-multi-env-master-20190805072432/2f9fcba0-b77c-11e9-870d-1253a26d999e"
+        },
+        "categories": {
+            "auth": {
+                "amplifymultienv59e7e8fd": {}
+            }
         }
     },
     "dev": {
