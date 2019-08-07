@@ -1,3 +1,25 @@
 {
-	"auth": {}
+	"auth": {
+		"amplifymultienv59e7e8fd": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"predictions": {
+		"TranslateEngToHin": {
+			"providerPlugin": "awscloudformation",
+			"service": "Translate",
+			"convertType": "translateText"
+		},
+		"speechGeneratorcc296895": {
+			"providerPlugin": "awscloudformation",
+			"service": "Polly",
+			"convertType": "speechGenerator"
+		},
+		"TranscribeEnglish": {
+			"providerPlugin": "awscloudformation",
+			"service": "Transcribe",
+			"convertType": "transcription"
+		}
+	}
 }
